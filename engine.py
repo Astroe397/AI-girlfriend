@@ -5,7 +5,7 @@ intents = d.Intents.default()
 intents.message_content = True
 
 client = d.Client(intents=intents)
-TARGET_CHANNEL_ID=1494392405988741292
+TARGET_CHANNEL_ID=#ENTER CHANNEL ID HERE
 @client.event
 async def on_message(message):
     if message.channel.id == TARGET_CHANNEL_ID:
@@ -44,4 +44,4 @@ async def on_message(message):
         except:
             print("didnt say mapel")
         
-client.run('MTQ5NDM5MjYxNjM2MjcwOTIyMw.GcfbTW.4B_wcaMsSWWaF0wOBeL3k_-eNQHyCm1-h5kECE')
+client.run() #ENTER TOKEN HERE
