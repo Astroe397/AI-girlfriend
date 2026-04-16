@@ -18,6 +18,7 @@ A python script that uses Llama.cpp and any inputed llm that is turned into a gi
 -on discord dev portal create a new bot and find the TOKEN
 -input the token in engine.py
 -on desired discord channel get the channel ID and paste the id in engine.py
+-inside engine.py look for (ENTERNAME) and put the persons name to relate to
 -download llama.cpp (https://github.com/ggml-org/llama.cpp (for GPU proccesing use cuda 12) ) 
 -once extracted in a folder open up cmd  and paste 
 
